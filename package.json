@@ -1,0 +1,33 @@
+{
+  "name": "oriented.io",
+  "version": "1.0.0",
+  "description": "Keep your goals in mind",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "webpack-dev-server --port 8882 --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrettin/oriented.io.git"
+  },
+  "keywords": [
+    "goals",
+    "oriented"
+  ],
+  "author": "Nicola Pedretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrettin/oriented.io/issues"
+  },
+  "homepage": "https://github.com/pedrettin/oriented.io#readme",
+  "devDependencies": {
+    "elm-webpack-loader": "^5.0.0",
+    "file-loader": "^2.0.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
